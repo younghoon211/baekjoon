@@ -7,21 +7,24 @@ import java.io.InputStreamReader;
 // 사분면
 public class Ex04_14681_Quadrant {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        int a = Integer.parseInt(br.readLine());
-        int b = Integer.parseInt(br.readLine());
+        try {
+            int a = Integer.parseInt(br.readLine());
+            int b = Integer.parseInt(br.readLine());
 
-        if (a>0 && b>0) {
-            System.out.println(1);
-        } else if (a<0 && b>0) {
-            System.out.println(2);
-        } else if (a<0 && b<0) {
-            System.out.println(3);
-        } else {
-            System.out.println(4);
+            if (a > 0 && b > 0) {
+                System.out.println(1);
+            } else if (a < 0 && b > 0) {
+                System.out.println(2);
+            } else if (a < 0 && b < 0) {
+                System.out.println(3);
+            } else {
+                System.out.println(4);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
         }
-
     }
 }
