@@ -20,7 +20,7 @@ public class Ex05_2884_Alarm {
             b = Integer.parseInt(str[1]);
 
             if (a < 0 || a > 23 || b < 0 || b > 59) {
-                throw new IOException("올바른 입력값이 아닙니다.");
+                throw new IllegalArgumentException("올바른 입력값이 아닙니다.");
             } else if (b >= 45) {
                 b -= 45;
             } else if (a >= 1) { // a: 1~23
@@ -33,6 +33,8 @@ public class Ex05_2884_Alarm {
 
             System.out.println(a + " " + b);
 
+        } catch (IllegalArgumentException e) {
+            System.out.println(e.getMessage());
         } catch (Exception e) {
             e.printStackTrace();
         }
