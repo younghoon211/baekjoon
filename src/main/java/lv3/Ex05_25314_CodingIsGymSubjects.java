@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 // 코딩은 체육과목 입니다
-public class Ex05_25314_codingIsGymSubjects {
+public class Ex05_25314_CodingIsGymSubjects {
 
     // 문자열 이어붙일땐 String 보단 StringBuilder 쓰기
     // 변수명 신경쓰기 (가독성)

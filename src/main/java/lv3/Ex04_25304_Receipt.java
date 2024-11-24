@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 //영수증
-public class Ex04_25304_receipt {
+public class Ex04_25304_Receipt {
 
     public static void main(String[] args) throws IOException {
 

@@ -8,7 +8,7 @@ import java.io.*;
 // sb + bw : 852
 // 문자열 + bw : 892
 // bw : 884
-public class Ex06_15552_fastAplusB {
+public class Ex06_15552_FastAplusB {
 
     public static void main(String[] args) throws IOException {
 
