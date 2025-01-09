@@ -19,6 +19,9 @@ public class Ex03_9086_String {
             String S = br.readLine();
 
             sb.append(S.charAt(0)).append(S.charAt(S.length()-1)).append(System.lineSeparator());
+
+            // 96ms
+            // sb.append(S.substring(0, 1)).append(S.substring(S.length()-1)).append(System.lineSeparator());
         }
 
 
